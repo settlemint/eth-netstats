@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:8
+FROM mhart/alpine-node:9
 
 ADD . /eth-netstats
 WORKDIR /eth-netstats
