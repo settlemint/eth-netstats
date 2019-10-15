@@ -6,8 +6,8 @@ html(ng-app="netStatsApp")
     title Network Status
     style(type="text/css") [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none !important; }
     link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700')
-    link(rel='stylesheet', href='#{locals.pathPrefix}/css/netstats.min.css')
+    link(rel='stylesheet', href='#{pathPrefix}/css/netstats.min.css')
   body
     block content
 
-    script(src="#{locals.pathPrefix}/js/netstats.min.js")
+    script(src="#{pathPrefix}/js/netstats.min.js")
