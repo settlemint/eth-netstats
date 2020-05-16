@@ -648,7 +648,7 @@ function peerClass(peers, active)
 	if( ! active)
 		return 'text-gray';
 
-	return (peers < 1 ? 'text-danger' : 'text-success'));
+	return (peers < 1 ? 'text-danger' : 'text-success');
 }
 
 function timeClass(timestamp)
